@@ -5,7 +5,7 @@ export const Home = () => {
       className="min-h-screen flex items-center justify-center relative"
     >
       <div className="text-center z-10 p-4">
-        <h1 className="text-5xl md:text-7x1 font-bold mb-6 bg-gradient-to-r from-green-500 to-yellow-600 bg-clip-text text-transparent leading-right">
+        <h1 className="text-5xl md:text-7x1 font-bold mb-6 bg-gradient-to-r from-green-500 to-green-800 bg-clip-text text-transparent leading-right">
           Olá, eu sou o Ravi
         </h1>
         <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">

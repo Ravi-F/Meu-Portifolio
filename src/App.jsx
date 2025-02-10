@@ -4,6 +4,8 @@ import { LoadingScreen } from "./components/loadingscreen";
 import { Navbar } from "./components/navbar";
 import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/home";
+import { About } from "./components/sections/about";
+import { Projecs } from "./components/sections/projects";
 import "./index.css";
 
 
@@ -21,6 +23,8 @@ function App() {
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         < Home />
+        < About />
+        < Projecs/>
       </div>
     </>
   );
