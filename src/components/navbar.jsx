@@ -38,7 +38,7 @@ useEffect(() =>{
               Projetos
             </a>
             <a
-              href="#cotatos"
+              href="#contatos"
               className="text-gray-300 hover:text-white transition-colors"
             >
               Contatos
